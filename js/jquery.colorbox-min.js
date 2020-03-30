@@ -10,6 +10,8 @@ $(function() {
 	  rel:'slideshow',
 	  slideshow:true,
 	  slideshowSpeed:3000,
+	  innerWidth: 1000,//ColorBoxの幅
+	  innerHeight: 3300,//ColorBoxの高さ
 	  maxWidth:"90%",
 	  maxHeight:"90%",
 	  opacity: 0.7,
@@ -19,6 +21,8 @@ $(function() {
 		rel:'slideshow2',
 		slideshow:true,
 		slideshowSpeed:3000,
+		innerWidth: 1000,//ColorBoxの幅
+	    innerHeight: 3300,//ColorBoxの高さ
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
@@ -28,6 +32,8 @@ $(function() {
 		rel:'slideshow3',
 		slideshow:true,
 		slideshowSpeed:3000,
+		innerWidth: 1000,//ColorBoxの幅
+	    innerHeight: 3300,//ColorBoxの高さ
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
@@ -37,6 +43,8 @@ $(function() {
 		rel:'slideshow4',
 		slideshow:true,
 		slideshowSpeed:3000,
+		innerWidth: 1000,//ColorBoxの幅
+	    innerHeight: 3300,//ColorBoxの高さ
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
@@ -46,6 +54,8 @@ $(function() {
 		rel:'slideshow5',
 		slideshow:true,
 		slideshowSpeed:3000,
+	 	innerWidth: 1000,//ColorBoxの幅
+	    innerHeight: 3300,//ColorBoxの高さ
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
@@ -55,6 +65,8 @@ $(function() {
 		rel:'slideshow6',
 		slideshow:true,
 		slideshowSpeed:3000,
+		innerWidth: 1000,//ColorBoxの幅
+	    innerHeight: 3300,//ColorBoxの高さ
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,

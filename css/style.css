@@ -3,6 +3,7 @@
 body{
     background:  rgb(119, 195, 223);
     position: center;
+    margin:80px;
 }
 
 #Cars,#IntroShop,#Title,#Access{
@@ -46,8 +47,9 @@ h1{
     height: 0;
     border: none;
     border-left: solid 15px transparent;
-      border-bottom: solid 15px #3C14D0;
+    border-bottom: solid 15px #3C14D0;
   }
+
   h2:after {
     position: absolute;
     content: '';
@@ -120,6 +122,7 @@ h1{
     line-height: inherit;
     white-space: nowrap;
   }
+
   #mainNav ul{
     list-style: none;
   }
@@ -129,15 +132,14 @@ h1{
   }
 
   .navbar-nav li {
-    width: 250px;
-    height: 50px;
-    font-size:50px;
+    width: 150px;
     text-align: center;
     background-color:#3C14D0;
     float: left;
+    height: 50px;
     line-height: 50px;
-    margin-right: 2px;
-    white-space: nowrap;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   .navbar-nav li a {
@@ -159,7 +161,6 @@ h1{
   }
 
   #graphic ul img{
-    
     width: auto;
     height: 900px;
     padding-right:1000px;
@@ -198,7 +199,7 @@ h1{
     height: max-content;
     position: absolute;
     z-index: 3;
-    top: 0px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -209,7 +210,6 @@ h1{
     opacity: 0.8;
     white-space: nowrap;
   }
-
 
 /*販売店紹介*/
 #IntroShop h2{
@@ -231,6 +231,7 @@ h1{
     width:250px;
     height:200px;
 }
+
 #Cars .gallery_box .main{ 
   /*Button Text Style*/
   font-family:'Inconsolata', 'Helvetica', 'Arial', sans-serif;
@@ -306,7 +307,9 @@ h1{
   padding: .35em;
   border-bottom: 2px solid #fff;
 }
-
+.main{
+  position: fixed;
+}
 
 /*アクセス*/
 #accesstable {
