@@ -15,6 +15,7 @@ $(function() {
 	  maxWidth:"90%",
 	  maxHeight:"90%",
 	  opacity: 0.7,
+	  fixed:true,
 	});
 
 	$(".gallerytwo").colorbox({
@@ -26,6 +27,7 @@ $(function() {
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
+		fixed:true,
 	});
 
 	$(".gallerythree").colorbox({
@@ -37,6 +39,7 @@ $(function() {
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
+		fixed:true,
 	});
   
 	$(".galleryfour").colorbox({
@@ -48,6 +51,7 @@ $(function() {
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
+		fixed:true,
 	});
 
 	$(".galleryfive").colorbox({
@@ -59,6 +63,7 @@ $(function() {
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
+		fixed:true,
 	});
 	  
 	$(".gallerysix").colorbox({
@@ -70,5 +75,6 @@ $(function() {
 		maxWidth:"90%",
 		maxHeight:"90%",
 		opacity: 0.7,
+		fixed:true,
 	});
   });

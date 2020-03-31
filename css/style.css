@@ -209,6 +209,7 @@ h1{
     white-space: nowrap;
   }
 
+
 /*販売店紹介*/
 #IntroShop h2{
     font-size: 20px;
@@ -232,8 +233,7 @@ h1{
 }
 
 #Cars .gallery_box .main {
-  border: 4px solid #3C14D0 ;
-  color: rgb#3C14D0;
+  border-bottom: 0.1875em solid #af3030;
   background-color:#fff;
   outline: none;
   position: relative;
@@ -246,8 +246,9 @@ h1{
 
 
 #Cars .gallery_box .main:hover {
-  transform: translateY(0.1875em);
   background: #ef3f40;
+  border-bottom-color: transparent;
+  transform: translateY(0.1875em);
 }
 
 .gallery_box{
@@ -330,7 +331,6 @@ h1{
     }
     #accesstable tr {
       display: block;
-      margin-bottom: .625em;
     }
     #access td {
       border-bottom: 1px solid #bbb;

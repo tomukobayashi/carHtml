@@ -1,8 +1,13 @@
 ﻿@charset "utf-8";
 /*全体的なレイアウト*/
+ body{
+	overflow-x: hidden;
+
+} 
 
 #Cars,#IntroShop,#Title,#Access{
 	width: 95%;
+	margin:0,auto;
 }
 
 /*タイトル*/
@@ -16,13 +21,11 @@
     z-index: 1;
   }
 
-  
   #shopName::before {
 	font-size: 25px;
-	margin-bottom:19em;
+	margin-bottom:18.5em;
 	position: absolute;
   }
-
 
 /*販売店紹介*/
 #IntroShop{
@@ -54,6 +57,5 @@
 
 /*アクセス*/
 #Access{
-    padding-bottom: 100px;
 	padding-top: 120px;
   }
