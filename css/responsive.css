@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/*全体的なレイアウト*/
+
+#Cars,#IntroShop,#Title,#Access{
+	width: 95%;
+}
+
+/*タイトル*/
+#Title{
+	padding-bottom: 1px;
+}
+
+#graphic ul img{
+	width: 350px;
+	height:450px;
+    z-index: 1;
+  }
+
+  
+  #shopName::before {
+	font-size: 25px;
+	margin-bottom:19em;
+	position: absolute;
+  }
+
+
+/*販売店紹介*/
+#IntroShop{
+	padding-bottom: 30px;
+    padding-top: 120px;
+}
+#IntroShop img{
+	width:100%;
+}
+
+/*商品一覧*/
+#Cars{
+    padding-bottom: 5400px;
+	padding-top: 120px;
+  }
+
+#Cars img{
+    width:150px;
+	height:100px;
+}
+
+.gallery_box{
+	padding-left: 50px;
+  } 
+  
+.gallery_box figure:first-child{								
+	margin-left: 40px;					
+  }	
+
+/*アクセス*/
+#Access{
+    padding-bottom: 100px;
+	padding-top: 120px;
+  }

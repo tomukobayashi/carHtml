@@ -221,6 +221,7 @@ h1{
 .shopIntro img{
     float: left;
     width: 600px;
+    padding: 10px;
 }
 
 
@@ -345,6 +346,11 @@ h1{
     }
     #access tbody th {
         color: #fff;
+    }
+
+    #Access {
+      margin: 0 auto;
+      width: 95%;
     }
 }
 
