@@ -4,8 +4,8 @@ body{
     background:  rgb(119, 195, 223);
 }
 
-#Cars,#IntroShop,#Title,#Access{
-    width: 1300px;
+#Cars,#IntroShop,#Title,#Access,#mainNav{
+    width: 1200px;
     position: center;
     margin-left: auto;
     margin-right: auto;
@@ -62,18 +62,18 @@ h1{
   }
 
   #IntroShop{
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     padding-top: 30px;
   }
 
   #Cars{
-    padding-bottom: 2500px;
+    padding-bottom: 850px;
     padding-top: 30px;
   }
 
   #Access{
-    padding-bottom: 100px;
-    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-top: 10px;
   }
 
   /*ヘッダー部分*/
@@ -121,6 +121,7 @@ h1{
     white-space: nowrap;
   }
 
+  
   #mainNav ul{
     list-style: none;
   }
@@ -159,7 +160,7 @@ h1{
   }
 
   #graphic ul img{
-    width: auto;
+    width: 1200px;
     height: 900px;
     padding-right:10px;
     padding-bottom:100px;
@@ -244,7 +245,6 @@ h1{
   transition: all 0.3s ease 0s;
 }
 
-
 #Cars .gallery_box .main:hover {
   background: #ef3f40;
   border-bottom-color: transparent;
@@ -314,45 +314,7 @@ h1{
   .non{
     background:#fff
   }
-  @media screen and (max-width: 600px) {
-    #accesstable {
-      border: 0;
-      width:100%
-    }
-    #accesstable thead {
-      border: none;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
-    #accesstable tr {
-      display: block;
-    }
-    #access td {
-      border-bottom: 1px solid #bbb;
-      display: block;
-      font-size: .8em;
-      text-align: right;
-      position: relative;
-      padding: .625em .625em .625em 4em;
-      border-right: none;
-    }
-    #access td:last-child {
-      border-bottom: 0;
-    }
-    #access tbody th {
-        color: #fff;
-    }
-
-    #Access {
-      margin: 0 auto;
-      width: 95%;
-    }
-}
+ 
 
 #topBack a{
   color: #fff;

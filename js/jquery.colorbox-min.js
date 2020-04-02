@@ -10,8 +10,6 @@ $(function() {
 	  rel:'slideshow',
 	  slideshow:true,
 	  slideshowSpeed:3000,
-	  innerWidth: 1000,//ColorBoxの幅
-	  innerHeight: 3300,//ColorBoxの高さ
 	  maxWidth:"90%",
 	  maxHeight:"90%",
 	  opacity: 0.7,
