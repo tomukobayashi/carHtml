@@ -38,28 +38,15 @@
 	margin-bottom: 0px;
   } 
 
-  ヘッダー
-  .navbar-collapse{
-	margin-right: 1000px;
-	padding-right: 100px;
-	width:1000px;
-	float: left;
-}
+  /*ヘッダー*/
   .navbar-nav li {
-	font-size: 20px;
-	width: 150px;
-	height: 50px;
-    text-align: center;
-    background-color:#3C14D0;
-    float: left;
-    line-height: 50px;
-    margin-right: 5px;
-    margin-bottom: 0px;
+	margin-bottom: 10px;
+	margin-right: 1000px;
+	display: table-cell;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
   }
-
-  .navbar-nav {
-	float: left; 
-  } 
 
 
 /*タイトル*/
@@ -122,6 +109,8 @@
     margin: 0 auto;
     padding: 0;
 	width: auto;
+    vertical-align: middle;
+    display: table-cell;
     table-layout: fixed;
   }
   
